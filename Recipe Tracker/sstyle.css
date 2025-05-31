@@ -1,0 +1,67 @@
+body {
+  
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: #d2a7a7;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: rgb(138, 163, 175);
+  padding: 25px;
+  border-radius: 10px;
+ color: rgb(19, 18, 19);
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.recipe {
+  background: #e7f3e7;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.recipe h3 {
+  margin-top: 0;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  padding: 5px 10px;
+  margin-top: 10px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+/* Style for the search bar */
+.search-container {
+  margin-bottom: 20px;
+}
+
+#search-bar {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}

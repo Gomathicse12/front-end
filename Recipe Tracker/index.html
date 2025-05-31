@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recipe Tracker</title>
+  <link rel="stylesheet" href="sstyle.css" />
+</head>
+<body>
+  <div class="container">
+    <h1><center>Recipe Tracker</center></h1>
+    
+<!-- Add a search bar above the recipe form -->
+<div class="search-container">
+  <input
+    type="text"
+    id="search-bar"
+    placeholder="Search for a recipe..."
+  />
+</div>
+
+<!-- Recipe form and list remain the same as before -->
+<form id="recipe-form">
+  <input type="text" id="title" placeholder="Recipe Title" required />
+  <textarea id="ingredients" placeholder="Ingredients" required></textarea>
+  <textarea id="instructions" placeholder="Instructions" required></textarea>
+  <button type="submit">Add Recipe</button>
+</form>
+
+<div id="recipe-list"></div>
+
+    <div id="recipe-list"></div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
